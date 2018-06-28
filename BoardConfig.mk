@@ -135,5 +135,9 @@ PRODUCT_FULL_TREBLE_OVERRIDE := true
 # Vendor
 VENDOR_SECURITY_PATCH := 2019-03-05
 
+# Verified Boot
+BOARD_AVB_ENABLE := true
+BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flag 2
+
 # Inherit from the proprietary version
 -include vendor/nubia/TP1803/BoardConfigVendor.mk
