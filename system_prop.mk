@@ -27,6 +27,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=0 \
     debug.sf.latch_unsignaled=1
 
+# GPS
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.overlay.izat.optin=rro
+
 # IOP
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.iop.enable_uxe=1 \
