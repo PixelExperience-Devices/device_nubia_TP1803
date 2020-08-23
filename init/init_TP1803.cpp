@@ -38,4 +38,8 @@ void property_override(char const prop[], char const value[])
 
 void vendor_load_properties() {
     property_override("persist.radio.multisim.config", "ssss");
+
+    // override default language
+    property_override("persist.sys.language", "en");
+    property_override("persist.sys.country", "US");
 }
