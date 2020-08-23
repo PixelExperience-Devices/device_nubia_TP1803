@@ -63,6 +63,10 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     textclassifier.bundle1
 
+# Wallpapers
+PRODUCT_PACKAGES += \
+    PixelLiveWallpaperPrebuilt
+
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl
