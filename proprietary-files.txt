@@ -152,7 +152,6 @@ etc/wfdconfigsink.xml
 lib/com.qualcomm.qti.wifidisplayhal@1.0.so
 lib64/extractors/libmmparser.so
 lib64/libFileMux.so
-lib64/libdisplayconfig.so
 lib64/libmmparser_lite.so
 lib64/libmmosal.so
 lib64/libqdMetaData.system.so
@@ -160,7 +159,6 @@ lib64/libwfdclient.so
 lib64/libwfdnative.so
 lib/extractors/libmmparser.so
 lib/libFileMux.so
-lib/libdisplayconfig.so
 lib/libmmparser_lite.so
 lib/libmmosal.so
 lib/libmmrtpdecoder.so
