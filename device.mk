@@ -63,6 +63,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# Permissions
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.software.secure_lock_screen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.software.secure_lock_screen.xml
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext \
