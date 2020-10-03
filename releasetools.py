@@ -19,11 +19,18 @@ import re
 
 def FullOTA_InstallEnd(info):
   OTA_InstallEnd(info)
+  OTA_UpdateFirmware(info)
   return
 
 def IncrementalOTA_InstallEnd(info):
   OTA_InstallEnd(info)
+  OTA_UpdateFirmware(info)
   return
+
+def OTA_UpdateFirmware(info):
+  info.script.AppendExtra('package_extract_file("install/firmware-update/dtbo.img", "/dev/block/bootdevice/by-name/dtbo");')
+  info.script.AppendExtra('package_extract_file("install/firmware-update/vendor.img", "/dev/block/bootdevice/by-name/vendor");')
+  info.script.AppendExtra('package_extract_file("install/firmware-update/modem.img", "/dev/block/bootdevice/by-name/modem");')
 
 def AddImage(info, basename, dest):
   name = basename
