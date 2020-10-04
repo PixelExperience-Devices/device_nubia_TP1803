@@ -14,9 +14,9 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := false
 # Inherit from TP1803 device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
-PRODUCT_BRAND := nubia
+PRODUCT_BRAND := Nubia
 PRODUCT_DEVICE := TP1803
-PRODUCT_MANUFACTURER := nubia
+PRODUCT_MANUFACTURER := Nubia
 PRODUCT_NAME := aosp_TP1803
 PRODUCT_MODEL := Mini 5G
 
