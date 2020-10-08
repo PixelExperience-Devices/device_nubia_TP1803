@@ -31,6 +31,8 @@ def OTA_UpdateFirmware(info):
   info.script.AppendExtra('package_extract_file("install/firmware-update/dtbo.img", "/dev/block/bootdevice/by-name/dtbo");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/vendor.img", "/dev/block/bootdevice/by-name/vendor");')
   info.script.AppendExtra('package_extract_file("install/firmware-update/modem.img", "/dev/block/bootdevice/by-name/modem");')
+  info.script.AppendExtra('package_extract_file("install/firmware-update/tz.mbn", "/dev/block/bootdevice/by-name/tz");')
+  info.script.AppendExtra('package_extract_file("install/firmware-update/km4.mbn", "/dev/block/bootdevice/by-name/keymaster");')
 
 def AddImage(info, basename, dest):
   name = basename
