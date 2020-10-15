@@ -52,3 +52,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Subsystem ramdump
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ssr.restart_level=ALL_ENABLE
+
+# USAP
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
