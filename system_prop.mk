@@ -1,9 +1,3 @@
-# Bluetooth
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.btstack.a2dp_offload_cap=sbc-aac-ldac \
-    persist.vendor.btstack.enable.splita2dp=true \
-    vendor.bluetooth.soc=cherokee
-
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,org.lineageos.snap
