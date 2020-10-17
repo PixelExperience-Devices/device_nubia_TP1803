@@ -1,0 +1,20 @@
+[  
+   {  
+      "repository": "vendor_nubia_TP1803",
+      "target_path": "vendor/nubia/TP1803",
+      "branch": "ten",
+      "remote": "pixel-devices-blobs"
+   },
+   {
+      "repository": "packages_apps_PixelLiveWallpaper",
+      "target_path": "packages/apps/PixelLiveWallpaper",
+      "branch": "ten",
+      "remote": "pixel-gitlab"
+   },
+   {
+      "repository": "nullbytepl/device_tadiphone-fw",
+      "target_path": "device/tadiphone-fw",
+      "branch": "ten",
+      "remote": "gitlab"
+   }
+]
