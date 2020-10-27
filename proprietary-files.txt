@@ -1,5 +1,9 @@
 # All unpinned blobs are from stock 9
 
+# aptX - from coral-user 11 RP1A.201005.004 6782484 release-keys
+system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+
 # Display postprocessing - from laurel_sprout 10
 product/lib64/libsdm-disp-apis.qti.so|bb78a870632a814e9893fe44fb8986e4bdbcff8b
 product/lib64/vendor.display.color@1.0.so|e90c75046ba1f6f677b9f719caaae8d91d1a5cde
