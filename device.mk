@@ -10,9 +10,6 @@ $(call inherit-product-if-exists, vendor/nubia/TP1803/TP1803-vendor.mk)
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
-# Firmware
-$(call inherit-product, device/tadiphone-fw/firmware.mk)
-
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
