@@ -38,9 +38,6 @@ system_ext/lib64/vendor.qti.gnss@4.0.so|5d79f57d3207844e4d6b2f870e382f175b9793ad
 -system_ext/framework/izat.xt.srv.jar|3cc7358eeb134a1d8bf32e425097ddb945e52055
 -system_ext/priv-app/com.qualcomm.location/com.qualcomm.location.apk;PRESIGNED|970cb1d800fe66518d47570c76156b8781e4804f
 
-# Input
-etc/excluded-input-devices.xml
-
 # Perf
 lib64/vendor.qti.hardware.iop@1.0.so
 lib64/vendor.qti.hardware.iop@2.0.so
