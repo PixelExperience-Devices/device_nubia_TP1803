@@ -26,6 +26,3 @@ PRODUCT_GMS_CLIENTID_BASE := android-nubia
 TARGET_VENDOR := nubia
 TARGET_VENDOR_PRODUCT_NAME := TP1803
 PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="TP1803-user 9 PKQ1.190504.001 eng.nubia.20190618.151633 release-keys"
-
-# Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := google/coral/coral:11/RP1A.201005.004/6782484:user/release-keys
