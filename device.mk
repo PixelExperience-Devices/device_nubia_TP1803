@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Get non-open-source specific aspects
-$(call inherit-product-if-exists, vendor/nubia/TP1803/TP1803-vendor.mk)
-
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
@@ -60,6 +57,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# Platform
+PRODUCT_USES_QCOM_HARDWARE := true
+TARGET_BOARD_PLATFORM := msmnile
+
 # Telephony
 PRODUCT_PACKAGES += \
     telephony-ext \
@@ -82,3 +83,14 @@ PRODUCT_PACKAGES += \
 # WiFi Display
 PRODUCT_PACKAGES += \
     libnl
+
+# PA common QTI components configuration
+TARGET_COMMON_QTI_COMPONENTS := \
+    bt \
+    display \
+    gps \
+    perf \
+    telephony \
+    wfd
+
+-include device/qcom/common/common.mk
