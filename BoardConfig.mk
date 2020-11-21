@@ -126,17 +126,25 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
 
 # Sepolicy
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR := \
+    device/qcom/sepolicy/generic/public \
+    device/qcom/sepolicy/generic/public/attribute \
+    device/qcom/sepolicy/qva/public \
+    device/qcom/sepolicy/qva/public/attribute
 
-BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR := \
     device/qcom/sepolicy/generic/private \
     device/qcom/sepolicy/qva/private
 
-BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
-    device/qcom/sepolicy/generic/public/attribute \
-    device/qcom/sepolicy/generic/public \
-    device/qcom/sepolicy/qva/public/attribute \
-    device/qcom/sepolicy/qva/public
+PRODUCT_PUBLIC_SEPOLICY_DIRS := \
+    device/qcom/sepolicy/generic/product/public \
+    device/qcom/sepolicy/qva/product/public
+
+PRODUCT_PRIVATE_SEPOLICY_DIRS := \
+    device/qcom/sepolicy/generic/product/private \
+    device/qcom/sepolicy/qva/product/private
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
