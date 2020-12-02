@@ -1,0 +1,20 @@
+[  
+   {  
+      "repository": "AOSPA/android_device_qcom_common",
+      "target_path": "device/qcom/common",
+      "branch": "ruby",
+      "remote": "github"
+   },
+   {
+      "repository": "ThankYouMario/proprietary_vendor_qcom_common",
+      "target_path": "vendor/qcom/common",
+      "branch": "ruby",
+      "remote": "github"
+   },
+   {
+      "repository": "nullbytepl/device_tadiphone-fw",
+      "target_path": "device/tadiphone-fw",
+      "branch": "eleven",
+      "remote": "gitlab"
+   }
+]
