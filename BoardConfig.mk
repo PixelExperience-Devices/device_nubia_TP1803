@@ -147,7 +147,8 @@ PRODUCT_PRIVATE_SEPOLICY_DIRS := \
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
 # Soong namespaces
-PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
+PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH) \
+                            vendor/nubia/TP1803
 
 # Treble
 BOARD_VNDK_VERSION := current
