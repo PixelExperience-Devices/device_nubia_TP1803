@@ -14,7 +14,7 @@
    {
       "repository": "nullbytepl/device_tadiphone-fw",
       "target_path": "device/tadiphone-fw",
-      "branch": "eleven",
+      "branch": "eleven-test",
       "remote": "gitlab"
    },
    {
