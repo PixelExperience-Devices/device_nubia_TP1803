@@ -42,7 +42,17 @@ def OTA_InstallEnd(info):
   AddImage(info, "vbmeta.img", "/dev/block/bootdevice/by-name/vbmeta")
   AddImageRadio(info, "dtbo.img", "/dev/block/bootdevice/by-name/dtbo")
   AddImageRadio(info, "vendor.img", "/dev/block/bootdevice/by-name/vendor")
+
   AddImageRadio(info, "modem.img", "/dev/block/bootdevice/by-name/modem")
   AddImageRadio(info, "tz.mbn", "/dev/block/bootdevice/by-name/tz")
   AddImageRadio(info, "km4.mbn", "/dev/block/bootdevice/by-name/keymaster")
+  AddImageRadio(info, "aop.mbn", "/dev/block/bootdevice/by-name/aop")
+  AddImageRadio(info, "BTFM.bin", "/dev/block/bootdevice/by-name/bluetooth")
+  AddImageRadio(info, "cmnlib.mbn", "/dev/block/bootdevice/by-name/cmnlib")
+  AddImageRadio(info, "cmnlib64.mbn", "/dev/block/bootdevice/by-name/cmnlib64")
+  AddImageRadio(info, "dspso.bin", "/dev/block/bootdevice/by-name/dsp")
+  AddImageRadio(info, "hyp.mbn", "/dev/block/bootdevice/by-name/hyp")
+  AddImageRadio(info, "qupv3fw.elf", "/dev/block/bootdevice/by-name/qupfw")
+  AddImageRadio(info, "storsec.mbn", "/dev/block/bootdevice/by-name/storsec")
+  AddImageRadio(info, "uefi_sec.mbn", "/dev/block/bootdevice/by-name/uefisecapp")
   return
