@@ -1,15 +1,14 @@
-[  
-   {  
-      "repository": "AOSPA/android_device_qcom_common",
-      "target_path": "device/qcom/common",
-      "branch": "ruby",
-      "remote": "github"
+[
+   {
+      "remote": "pixel-devices-blobs",
+      "repository": "vendor_qcom_common",
+      "target_path": "vendor/qcom/common",
+      "branch": "eleven"
    },
    {
-      "repository": "ThankYouMario/proprietary_vendor_qcom_common",
-      "target_path": "vendor/qcom/common",
-      "branch": "ruby",
-      "remote": "github"
+      "repository": "device_qcom_common",
+      "target_path": "device/qcom/common",
+      "branch": "eleven"
    },
    {
       "repository": "nullbytepl/device_tadiphone-fw",
