@@ -16,11 +16,5 @@
       "target_path": "device/tadiphone-fw",
       "branch": "eleven",
       "remote": "gitlab"
-   },
-   {
-      "repository": "vendor_nubia_TP1803",
-      "target_path": "vendor/nubia/TP1803",
-      "branch": "eleven",
-      "remote": "pixel-devices-blobs"
    }
 ]
