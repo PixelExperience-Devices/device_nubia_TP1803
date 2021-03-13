@@ -1,3 +1,5 @@
+soong_namespace {}
+
 /* dummy */
 cc_library_headers {
     name: "libfastrpcshippable_headers",
